@@ -252,21 +252,3 @@ print("* 一共執行: 「%s」秒"%(period))
 # # # # print(df["日期"][12].day)
 # from numpy.core.defchararray import isdecimal, istitle, lstrip
 # from requests import api
-
-
-
-# ↘彭彭: 裝飾器練習
-# def decorator(callback):
-#     def sub(): # 定義副程式
-#         print("(第一步): 先執行副程式的內容")
-#         callback(3) # 呼叫主程式, 能把副程式執行得到的資料傳給主程式參數使用
-#         # → 裝飾器的好處: 
-#         #   1. 輕鬆在回呼這裡填入要給主程式的資料 & 
-#         #   2. 把主程式定義在副程式底下(要在主程式呼叫寫結構[例如上一行寫成for迴圈]不影響到副程式)
-#     return sub
-
-# @decorator
-# def main(n): # 定義主程式
-#     print("(第二步): 再執行主程式的內容")
-#     print("印出參數:", n)
-# main()
