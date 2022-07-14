@@ -4,5 +4,11 @@ some form-table with react-components practice.
 * 下載 05-practice.html, 在檔案系統環境中預覽網頁結果。
 * git clone 整個 repository, 在專案資料夾使用 webpack-dev-server 預覽網頁結果
 ```CLI
+git clone https://github.com/xi-wei-kao/form-table-practice.git 放置到資料夾名稱【如: form-table】
+```
+```CLI
+cd form-table
+```
+```CLI
 npm run start
 ```
